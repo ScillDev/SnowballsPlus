@@ -1,0 +1,32 @@
+# -= Mob Drops =-
+# Created by Scill
+#
+# Damage that the snowball inflicts
+snowball-damage: 1.0
+
+toggles:
+  # Adds a snow layer to existing snow
+  add-snow-layer: true
+  # Adds a snow layer to non-existing snow
+  form-snow: true
+  # Freezes water to ice
+  form-ice: true
+  # Destroys glass on hit
+  break-glass: true
+  # Destroys nonsolids (plants, flowers, etc.) on hit
+  break-nonsolid-blocks: true
+  # Destroys fire block on hit
+  extinguish-fire: true
+  # Gets rid of fire effect on entities
+  extinguish-entity-burn: true
+
+# Chance for entities to be slowed on hit
+entity-slowness:
+  toggle: true
+  power: 2
+  # in seconds
+  time: 2.0
+  chance: 10.0
+
+# Do you have to mine with a shovel to drop snowballs?
+snow-shovel-required: false

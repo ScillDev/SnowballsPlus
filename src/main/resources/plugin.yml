@@ -1,0 +1,14 @@
+name: SnowballsPlus
+main: me.scill.snowballsplus.SnowballsPlus
+version: 1.0
+api-version: 1.13
+author: Scill
+commands:
+   snowballsplus:
+      description: Reloads the SnowBallsPlus plugin.
+      usage: /<command>
+      aliases: [snowballs, snowball]
+permissions:
+   snowballs.reload:
+      description: Reloads the SnowballsPlus plugin.
+      default: op
